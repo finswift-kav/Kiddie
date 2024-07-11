@@ -1,0 +1,1961 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url(../images/day-care-hero-blobs-background.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto;
+    height: 796px;
+}
+
+.nav-item {
+    padding-left: 25px;
+    color: #566476;
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fd8549;
+}
+
+.nav-item a:hover {
+    color: #fd8549;
+}
+
+.lovely-children {
+    padding-top: 10%;
+}
+
+.play {
+    max-width: 1228px;
+    margin: 0 auto;
+}
+
+.safe-enjoy h6 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.safe-enjoy h1 {
+    color: #fd8549;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    width: 529px;
+    padding: 20px 0 30px 0;
+}
+
+.safe-enjoy p {
+    color: #566476;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    width: 489px;
+    padding-bottom: 35px;
+}
+
+.enroll {
+    gap: 50px !important;
+}
+
+.enroll-btn a {
+    text-decoration: none;
+}
+
+.enroll-btn span {
+
+    border: 1px solid #2f3c4c;
+    border-radius: 30px;
+    padding: 15px 35px;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    background-color: #2f3c4c;
+}
+
+.rating i {
+    color: #fdc049;
+}
+
+.rating p {
+    color: #566476;
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.boy-girl img {
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+.boy-girl {
+    position: relative;
+    top: -39px;
+    right: 51px;
+}
+
+.girl {
+    position: absolute;
+    top: 226px;
+    right: 0;
+    bottom: 0;
+    left: 295px;
+}
+
+.line {
+    height: 1px;
+    width: 77%;
+    background-color: #e9eaec;
+}
+
+.icon-number {
+    padding-top: 30px;
+}
+
+.fa-phone-flip {
+    color: white;
+    background-color: #fd8549;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 12px 12px;
+}
+
+.icon-number span {
+    font-size: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    color: #2f3c4c;
+    padding-left: 10px;
+}
+
+#checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .5s;
+    display: none;
+  }
+  
+  .bars {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(176, 92, 255);
+    border-radius: 4px;
+  }
+  
+  #bar2 {
+    transition-duration: .8s;
+  }
+  
+  #bar1,#bar3 {
+    width: 70%;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+    position: absolute;
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+    transform: scaleX(0);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle {
+    transition-duration: .5s;
+    transform: rotate(180deg);
+  }
+
+/* -------------------section 1------------------------ */
+/* -------------------section 1------------------------ */
+/* -------------------section 1------------------------ */
+
+.main-bg1 {
+    padding-top: 150px;
+}
+
+.baby-image img {
+    border: 1px solid transparent;
+    border-radius: 30px;
+    height: 600px;
+    width: 600px;
+}
+
+.parents {
+    gap: 10% !important;
+}
+
+.parents-content {
+    padding-top: 30px;
+}
+
+.parents-content h6 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    color: #2f3c4c;
+    padding-bottom: 17px;
+}
+
+.parents-content h2 {
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    color: #fd8549;
+    padding-bottom: 25px;
+}
+
+.parents-content p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+}
+
+.more-btn {
+    padding-top: 30px;
+}
+
+.more-btn a {
+    text-decoration: none;
+    color: #2f3c4c;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #2f3c4c;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+
+/* -------------------section 2------------------------ */
+/* -------------------section 2------------------------ */
+/* -------------------section 2------------------------ */
+
+.main-bg2 {
+    padding-top: 200px;
+}
+
+.torter {
+    gap: 80px;
+}
+
+.mother-image img {
+    border-radius: 30px;
+}
+
+.torter-content img {
+    padding-top: 30px;
+}
+
+.torter-p {
+    font-size: 32px;
+    font-family: "Nunito Sans", sans-serif;
+    width: 77%;
+    padding-top: 40px;
+    color: #2f3c4c;
+}
+
+.signature {
+    padding-top: 25px;
+}
+
+.signature h6 {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+
+.signature-p {
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* -------------------section 3------------------------ */
+/* -------------------section 3------------------------ */
+/* -------------------section 3------------------------ */
+
+.main-bg3 {
+    padding-top: 200px;
+}
+
+.age {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.age h6 {
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.age h2 {
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #fd8549;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.stages {
+    gap: 30px;
+}
+
+.every-stage {
+    border: 1px solid #8ae0e5;
+    border-radius: 30px;
+}
+
+.stage-image img {
+    height: 240px;
+    width: 352px;
+    border-radius: 30px;
+    transform: translate(0px, -26px);
+}
+
+.stage-data {
+    padding-left: 30px;
+}
+
+.stage-data h4 {
+    font-size: 24px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+}
+
+.stage-data p {
+    font-size: 17px;
+    font-family: "Nunito Sans", sans-serif;
+    width: 79%;
+    color: #566476;
+}
+
+.learn-btn {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.learn-btn a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #fd8549;
+    font-weight: 600;
+}
+
+.fa-chevron-right {
+    padding-left: 10px;
+}
+
+/* -------------------section 4------------------------ */
+/* -------------------section 4------------------------ */
+/* -------------------section 4------------------------ */
+
+.main-bg4 {
+    padding-top: 150px;
+}
+
+.schedule {
+    text-align: center;
+}
+
+.schedule h6 {
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.schedule h2 {
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #fd874c;
+    padding-bottom: 50px;
+}
+
+.days {
+    border: 1px solid #8ae0e5;
+    border-radius: 30px;
+}
+
+.time {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.time h6 {
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+
+.time h3 {
+    font-size: 32px;
+    color: #fd874c;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.time p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 30px;
+    width: 80%;
+    color: #566476;
+    padding-bottom: 20px;
+}
+
+.horizontal-line {
+    height: 1px;
+    width: 366px;
+    background-color: #8ae0e5;
+}
+
+.vertical-line {
+    height: 400px;
+    width: 2px;
+    background-color: #8ae0e5;
+}
+
+.time-money {
+    padding-top: 30px;
+}
+
+.time-money span {
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 70px;
+}
+
+.welcome p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    color: #566476;
+    padding-top: 30px;
+}
+
+.enroll-your-kid-btn {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.enroll-your-kid-btn a {
+    text-decoration: none;
+    border: 10px solid;
+    border-radius: 50px;
+    color: white;
+    background-color: #2f3c4c;
+    padding: 20px 35px;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* -------------------section 5------------------------ */
+/* -------------------section 5------------------------ */
+/* -------------------section 5------------------------ */
+.main-bg5 {
+    padding-top: 200px;
+}
+
+.experience {
+    gap: 13%;
+}
+
+.learning h6 {
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.learning h2 {
+    font-size: 48px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: #fd8549;
+    width: 451px;
+    padding-bottom: 20px;
+}
+
+.learning p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 452px;
+    line-height: 35px;
+}
+
+.tick-span span {
+    display: block;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    line-height: 30px;
+}
+
+.tick-span i {
+    color: #8ae0e5;
+    font-size: 20px;
+}
+
+.k-btn {
+    padding-top: 50px;
+}
+
+.k-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 18px 35px;
+    color: #2f3c4c;
+    background-color: white;
+    font-weight: 600;
+}
+
+.kindness {
+    gap: 15px;
+}
+
+.creativity {
+    padding-top: 40px;
+}
+
+.create {
+    border: 1px solid #8ae0e5;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right: 40px;
+    margin-bottom: 15px;
+}
+
+.create i {
+    color: #fd8549;
+    font-size: 25px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.create span {
+    font-size: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #2F3C43;
+}
+
+.create p {
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 226px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+/* -------------------section 6------------------------ */
+/* -------------------section 6------------------------ */
+/* -------------------section 6------------------------ */
+
+.main-bg6 {
+    padding-top: 150px;
+}
+
+.image-col {
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.image-col img {
+    border-radius: 30px;
+}
+
+/* -------------------section 7------------------------ */
+/* -------------------section 7------------------------ */
+/* -------------------section 7------------------------ */
+
+.main-bg7 {
+    padding-top: 100px;
+    background-color: #f6fdfe;
+}
+
+.potential h6 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.potential h2 {
+    color: #fd8549;
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    width: 47%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.baby-video {
+    background-image: url(../images/day-care-home-video-image-thumbnail.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-radius: 30px;
+}
+
+.fa-circle-play {
+    font-size: 80px;
+    color: white;
+    transform: translate(593px, 314px);
+}
+
+.basic {
+    padding-top: 50px;
+    gap: 100px;
+}
+
+.morning h4 {
+    font-size: 24px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #2F3C43;
+    text-align: center;
+}
+
+.morning p {
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 433px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 70px;
+}
+
+.break-line {
+    height: 1px;
+    width: 422px;
+    background-color: #8ae0e5;
+    transform: translate(10px, -43px);
+}
+
+/* -------------------section 8------------------------ */
+/* -------------------section 8------------------------ */
+/* -------------------section 8------------------------ */
+.main-bg8 {
+    padding-top: 100px;
+    background-color: #f6fdfe;
+    padding-bottom: 150px;
+}
+
+.experts h6 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    color: #2F3C43;
+}
+
+.experts h4 {
+    color: #fd8549;
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    width: 514px;
+    margin: 0 auto;
+}
+
+.best {
+    gap: 50px;
+    padding-top: 60px;
+}
+
+.best-teacher img {
+    border-radius: 30px;
+}
+
+.stark {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.stark span {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
+
+.stark p {
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.breaked-line {
+    height: 1px;
+    width: 76%;
+    background-color: #8ae0e5;
+    transform: translate(147px, 40px);
+}
+
+/* -------------------section 9------------------------ */
+/* -------------------section 9------------------------ */
+/* -------------------section 9------------------------ */
+
+.parent h6 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #2F3C43;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.parent-img img {
+    border-radius: 30px;
+    transform: translate(-1px, -55px);
+}
+
+.ramona {
+    border: 1px solid #8ae0e5;
+    border-radius: 30px;
+    gap: 70px;
+    width: 68%;
+    height: 427px;
+    margin: 0 auto;
+}
+
+.parent-data img {
+    padding-top: 80px;
+}
+
+.parent-data p {
+    padding-top: 30px;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 488px;
+}
+
+.parent-data span {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: #2F3C43;
+}
+
+/* -------------------section 10------------------------ */
+/* -------------------section 10------------------------ */
+/* -------------------section 10------------------------ */
+
+.main-bg10 {
+    padding-top: 120px;
+}
+
+.joyful {
+    background-image: url(../images/day-care-final-cta-image-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.joyful h1 {
+    font-size: 64px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.joyful p {
+    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.kid {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.kid a {
+    text-decoration: none;
+    border: 1px solid #fd8549;
+    border-radius: 30px;
+    padding: 18px 30px;
+    color: white;
+    background-color: #fd8549;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 650;
+}
+
+/* -------------------section 11------------------------ */
+/* -------------------section 11------------------------ */
+/* -------------------section 11------------------------ */
+
+.link {
+    padding-top: 100px;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.kidie p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 247px;
+    line-height: 30px;
+}
+
+.kidie img {
+    padding-bottom: 20px;
+}
+
+.icons {
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.icons i {
+    color: black;
+    font-size: 20px;
+}
+
+.quick h5 {
+    font-size: 25px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fd8549;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 30px;
+}
+
+.touch p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    line-height: 30px;
+}
+
+.day h5 {
+    font-size: 25px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.touch h5 {
+    font-size: 25px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding-bottom: 30px;
+}
+
+.last-line {
+    height: 1px;
+    width: 100%;
+    transform: translate(0px, -27px);
+    background-color: #e9eaec;
+}
+
+.footer p {
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #9CA7AB;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ---------------------Media Query---------------------------- */
+/* ---------------------Media Query---------------------------- */
+/* ---------------------Media Query---------------------------- */
+
+/* ---------------------Laptop Query---------------------------- */
+/* ---------------------Laptop Query---------------------------- */
+/* ---------------------Laptop Query---------------------------- */
+
+@media screen and (max-width:1200px) {
+
+    .safe-enjoy h1 {
+        line-height: 90px;
+        width: 372px;
+    }
+
+    .enroll {
+        gap: 0px !important;
+    }
+
+    .girl {
+        top: 415px;
+        right: 0;
+        bottom: 0;
+        left: 156px;
+    }
+
+    .safe-enjoy p {
+        width: 376px;
+    }
+
+    .enroll-btn span {
+        padding: 15px 20px;
+    }
+
+    .enroll-btn {
+        padding-top: 12px;
+    }
+
+    .main-bg1 {
+        padding-top: 34%;
+    }
+
+    .baby-image img {
+        width: 470px;
+        height: 500px;
+    }
+
+    .parents-content p {
+        line-height: 30px;
+        width: 341px;
+        margin: 0 auto;
+    }
+
+    .torter {
+        gap: 8px;
+    }
+
+    .torter-content img {
+        padding-top: 20px;
+    }
+
+    .age h2 {
+        width: 45%;
+    }
+
+    .stage-image img {
+        width: 268px;
+        height: 200px;
+    }
+
+    .stage-data p {
+        width: 88%;
+    }
+
+    .time p {
+        width: 63%;
+    }
+
+    .time-money span {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .torter {
+        gap: 0px;
+    }
+    .torter-p {
+        width: 84%;
+    }
+
+    .horizontal-line {
+        width: 253px;
+    }
+
+    .time p {
+        width: 80%;
+    }
+
+    .learning p {
+        width: 377px;
+    }
+
+    .create p {
+        width: 168px;
+    }
+
+    .create {
+        padding-right: 20px;
+    }
+
+    .experience {
+        gap: 5%;
+    }
+
+    .image-col {
+        gap: 25px;
+    }
+
+    .potential h2 {
+        width: 53%;
+        text-align: center;
+    }
+
+    .experts h4 {
+        text-align: center;
+    }
+
+    .breaked-line {
+        width: 100%;
+        transform: translate(-5px, 40px);
+    }
+
+    .ramona {
+        gap: 70px;
+        width: 100%;
+    }
+
+    .parent-img img {
+        transform: translate(-27px, -55px);
+    }
+
+    .first-img {
+        width: 40%;
+    }
+
+    .second-img {
+        width: 23%;
+    }
+
+    .fa-circle-play {
+        transform: translate(468px, 314px);
+    }
+    .kidie p {
+        width: 198px;
+    }
+    .link {
+        gap: 79px;
+    }
+}
+
+/* ---------------------Tablet Query---------------------------- */
+/* ---------------------Tablet Query---------------------------- */
+/* ---------------------Tablet Query---------------------------- */
+
+@media screen and (max-width:991px) 
+{
+    .main {
+        background-image: url(../images/day-care-hero-blobs-background.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 50%;
+        height: 796px;
+    }
+
+    .safe-enjoy h1 {
+        font-size: 40px;
+        width: 339px;
+        line-height: 61px;
+        padding: 6px 0 14px 0;
+    }
+    .boy-girl img {
+        width: 90%;
+    }
+    .safe-enjoy p {
+        font-size: 16px;
+        width: 333px;
+    }
+    .girl {
+        top: 263px;
+        right: 0;
+        bottom: 0;
+        left: 148px;
+    }
+    
+
+}
+
+
+
+
+
+
+/* ----------------------About Page------------------------ */
+/* ----------------------About Page------------------------ */
+/* ----------------------About Page------------------------ */
+.about-main {
+    background-image: url(../images/day-care-page-header-blobs.svg);
+    background-position: right top;
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+
+.about-content {
+    padding-top: 100px;
+}
+
+.about-content h6 {
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+
+.about-content h1 {
+    font-size: 64px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #fd8549;
+    width: 63%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.support {
+    padding-top: 80px;
+}
+
+.need-image img {
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+.need h3 {
+    font-size: 32px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    width: 74%;
+    line-height: 42px;
+    padding-bottom: 25px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.need p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 71%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+/* -----------------------section 1------------------------ */
+/* -----------------------section 1------------------------ */
+/* -----------------------section 1------------------------ */
+
+.founder {
+    padding-top: 150px;
+}
+
+.founder-data h2 {
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #fd8549;
+    width: 75%;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.founder-data p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    width: 74%;
+    color: #566476;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.founder-image img {
+    border-radius: 30px;
+}
+
+.morbi p {
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #2F3C43;
+    width: 67%;
+    margin: 0 auto;
+}
+
+.morbi img {
+    padding-top: 55px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+/* -----------------------section 2------------------------ */
+/* -----------------------section 2------------------------ */
+/* -----------------------section 2------------------------ */
+.inclusive {
+    gap: 20px;
+}
+
+.about-bg3 {
+    padding-top: 150px;
+}
+
+.respectful {
+    border: 1px solid #8ae0e5;
+    border-radius: 20px;
+    padding: 25px 0px 10px 24px
+}
+
+.respectful i {
+    color: #fd8549;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.respectful span {
+    color: #2F3C43;
+    font-size: 25px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+}
+
+.respectful p {
+    color: #566476;
+    font-size: 16px;
+    padding-top: 10px;
+    width: 86%;
+    line-height: 30px;
+}
+
+/* -----------------------section 3------------------------ */
+/* -----------------------section 3------------------------ */
+/* -----------------------section 3------------------------ */
+
+
+.vision {
+    padding-top: 150px;
+}
+
+.vis {
+    padding-left: 9%;
+}
+
+.vis h6 {
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    letter-spacing: 2px;
+    color: #2F3C43;
+}
+
+.inspire h4 {
+    font-size: 40px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #2F3C43;
+    width: 63%;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+.horizontal-line2 {
+    height: 1px;
+    width: 79%;
+    background-color: #8ae0e5;
+    transform: translate(113px, 74px);
+}
+
+/* -----------------------section 4------------------------ */
+/* -----------------------section 4------------------------ */
+/* -----------------------section 4------------------------ */
+.about-bg5 {
+    padding-top: 17%;
+}
+
+.teachers h6 {
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #2F3C43;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.teachers h2 {
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #fd8549;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 65px;
+}
+
+.bailey {
+    gap: 50px;
+    padding-top: 70px;
+}
+
+.illa img {
+    border-radius: 20px;
+}
+
+.illa-data {
+    padding-top: 20px;
+}
+
+.illa-data span {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #2F3C43;
+}
+
+.illa-data p {
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+}
+
+/* -----------------------section 5------------------------ */
+/* -----------------------section 5------------------------ */
+/* -----------------------section 5------------------------ */
+
+.about-bg6 {
+    padding-top: 200px;
+}
+
+
+/* -----------------------Program Page------------------------ */
+/* -----------------------Program Page------------------------ */
+/* -----------------------Program Page------------------------ */
+
+.program-content {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.program-content h6 {
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #2F3C43;
+    letter-spacing: 2px;
+    padding-left: 20%;
+    padding-bottom: 17px;
+    font-weight: 600;
+}
+
+.program-content h1 {
+    font-size: 64px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #fd8549;
+    width: 61%;
+    margin: 0 auto;
+    line-height: 80px;
+}
+
+.program-image {
+    background-image: url(../images/day-care-home-video-image-thumbnail.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 30px;
+}
+
+/* -----------------------section 1------------------------ */
+/* -----------------------section 1------------------------ */
+/* -----------------------section 1------------------------ */
+
+
+.keep h6 {
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #2F3C43;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.keep h1 {
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #fd8549;
+    width: 60%;
+    line-height: 60px;
+}
+
+.keep p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 64%;
+}
+
+.holistic {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 0 0 17px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.holistic-icon i {
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 15px 15px;
+    color: white;
+    background-color: #fd8549;
+}
+
+.program-bg1 {
+    background-color: #f6fdfe;
+    padding-top: 150px;
+}
+
+.holistic-content span {
+    font-size: 20px;
+    color: #2F3C43;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+}
+
+.holistic-content p {
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 95%;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+/* -----------------------section 2------------------------ */
+/* -----------------------section 2------------------------ */
+/* -----------------------section 2------------------------ */
+
+.program-bg2 {
+    padding-top: 130px;
+}
+
+.infant-img {
+    background-image: url(../images/day-care-program-image-fixed-background-3.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 750px;
+    width: 95%;
+}
+
+.infant-data {
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.infant-data h6 {
+    font-size: 14px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #2F3C43;
+    letter-spacing: 2px
+}
+
+.infant-data h2 {
+    font-size: 48px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #fc9764;
+}
+
+.infant-data p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 79%;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.sodles i {
+    color: #9be0e5;
+    font-size: 20px;
+}
+
+.sodles span {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    line-height: 35px;
+}
+
+.program-kid-btn {
+    padding-top: 50px;
+}
+
+.program-kid-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 50px;
+    color: white;
+    background-color: #2f3c4c;
+    padding: 20px 35px;
+}
+
+.todler-img {
+    background-image: url(../images/day-care-program-image-fixed-background-2.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 750px;
+    width: 94%;
+}
+
+.preschool-img {
+    background-image: url(../images/day-care-program-image-fixed-background-1.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 750px;
+    width: 95%;
+}
+
+
+/* ---------------------Admission Page-------------------------- */
+/* ---------------------Admission Page-------------------------- */
+/* ---------------------Admission Page-------------------------- */
+
+.admission {
+    padding-top: 90px;
+}
+
+.admission h6 {
+    font-size: 14px;
+    color: #2F3C43;
+    font-family: "Be Vietnam Pro", sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.admission h1 {
+    font-size: 64px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #fd8549;
+    line-height: 80px;
+}
+
+.admission p {
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    width: 63%;
+    padding-top: 25px;
+    line-height: 30px;
+}
+
+.enquiry-no {
+    padding-top: 30px;
+}
+
+.enquiry-no span {
+    font-size: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.admission-line {
+    height: 1px;
+    width: 95%;
+    background-color: #e9eaec;
+    transform: translate(8px, 60px);
+}
+
+/* ---------------------section 1-------------------------- */
+/* ---------------------section 1-------------------------- */
+/* ---------------------section 1-------------------------- */
+
+.admission-bg1 {
+    padding-top: 150px;
+}
+
+.admission-bg1 h6 {
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: #2F3C43;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+}
+
+.tour {
+    gap: 23px;
+}
+
+.greet {
+    border: 1px solid #8ae0e5;
+    border-radius: 20px;
+    padding: 20px 28px 10px 20px;
+}
+
+.greet h2 {
+    font-size: 48px;
+    color: #8ae0e5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    padding-bottom: 13px;
+}
+
+.greet span {
+    font-size: 20px;
+    color: #2F3C43;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+}
+
+.greet p {
+    font-size: 16px;
+    color: #566476;
+    font-family: "Nunito Sans", sans-serif;
+    width: 89%;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+/* ---------------------section 2-------------------------- */
+/* ---------------------section 2-------------------------- */
+/* ---------------------section 2-------------------------- */
+
+.admission-bg2 {
+    padding-top: 80px;
+}
+
+.painting {
+    gap: 35px;
+}
+
+.first-paint img {
+    border-radius: 20px;
+}
+
+/* ---------------------section 3-------------------------- */
+/* ---------------------section 3-------------------------- */
+/* ---------------------section 3-------------------------- */
+
+.admission-bg3 {
+    padding-top: 100px;
+}
+
+.enrollment {
+    width: 50%;
+}
+
+.enrollment h2 {
+    font-size: 48px;
+    color: #fd8549;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    width: 74%;
+    line-height: 60px;
+}
+
+.enrollment p {
+    font-size: 18px;
+    color: #566476;
+    font-family: "Nunito Sans", sans-serif;
+    width: 82%;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+.required-btn {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.required-btn a {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50px;
+    color: white;
+    background-color: #2f3c4c;
+    padding: 20px 35px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
+
+.policies {
+    width: 50%;
+    padding-top: 30px;
+}
+
+.polici-icon {
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.fa-circle-check {
+    color: #8ae0e5;
+}
+
+.polici-line {
+    height: 1px;
+    width: 51px;
+    background-color: #8ae0e5;
+    transform: translate(2px, 3px);
+    margin-bottom: 20px;
+}
+
+.check-span span {
+    font-size: 18px;
+    color: #566476;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
+
+/* ---------------------Contact Page-------------------------- */
+/* ---------------------Contact Page-------------------------- */
+/* ---------------------Contact Page-------------------------- */
+.about-main{
+    padding-bottom: 150px;
+}
+.general-vendor {
+    padding-top: 100px;
+}
+
+.example {
+    padding-bottom: 70px;
+}
+
+.example h4 {
+    font-size: 24px;
+    color: #2F3C43;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+}
+
+.example p {
+    font-size: 16px;
+    color: #566476;
+    font-family: "Nunito Sans", sans-serif;
+    width: 59%;
+}
+
+.example span {
+    font-size: 18px;
+    color: #fd8549;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
+
+.vendor-line {
+    height: 1px;
+    width: 60%;
+    background-color: #e9eaec;
+    transform: translate(-1px, -34px);
+}
+.vendor-icon h6{
+    font-size: 14px;
+    color: #2F3C43;
+    letter-spacing: 2px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.fa-facebook{
+    font-size: 25px;
+}
+.fa-vendor-icon{
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.parent-line {
+    height: 660px;
+    width: 1px;
+    background-color: #e9eaec;
+    transform: translate(-30px, 10px);
+}
+.email{
+    margin: 0 auto;
+}
+.first-name-box,.fourth-name-box{
+    display: grid;
+}
+.first-name-box,.fourth-name-box label{
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight:600;
+    color: #566476;
+    padding-top: 20px;
+}
+.third-name-box p{
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight:600;
+    color: #566476;
+    padding-top: 20px;
+}
+.first-name-box span{
+    color: #ff0000;
+    font-size: 20px;
+}
+.first-name-box input{
+    width: 600px;
+    height: 60px;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+}
+.fourth-name-box textarea{
+    width: 600px;
+    height: 130px;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+}
+.third-name-box label{
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #566476;
+    padding-left: 5px;
+}
+.submit-email-btn{
+    padding-top: 40px;
+}
+.submit-email-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #2f3c4c;
+    border: 1px solid;
+    padding: 17px 40px;
+    border-radius: 50px;
+}
+.general-vendor-line{
+    height: 1px;
+    width: 98%;
+    background-color: #e9eaec;
+    transform: translate(0px,50px);
+}
+
+/* ---------------------section 1---------------------- */
+/* ---------------------section 1---------------------- */
+/* ---------------------section 1---------------------- */
+
+.directions{
+    gap: 15%;
+}
+.address{
+    text-align: center;
+}
+.address h6{
+    font-size: 14px;
+    color: #2F3C43;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.address p{
+    font-size: 18px;
+    color: #566476;
+    font-family: "Nunito Sans", sans-serif;
+}
+.address a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fc904f;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+}
+.fa-arrow-up-right-from-square{
+    padding-right: 8px;
+}
+.work-hours h6{
+    font-size: 14px;
+    color: #2F3C43;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.work-hours p{
+    font-size: 18px;
+    color: #566476;
+    font-family: "Nunito Sans", sans-serif;
+}
+.phone h6{
+    font-size: 14px;
+    color: #2F3C43;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.phone p{
+    font-size: 18px;
+    color: #566476;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* ---------------------section 1---------------------- */
+/* ---------------------section 1---------------------- */
+/* ---------------------section 1---------------------- */
+.contact-bg2{
+    padding-top: 50px;
+}
+.map iframe{
+    width: 100%;
+}
